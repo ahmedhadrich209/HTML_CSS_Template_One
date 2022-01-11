@@ -117,7 +117,7 @@ body {
   min-width: 200px;
   top: calc(100% + 15px);
   display: none;
-  z-index: 1; /*bch matet5abech wra teswira*/
+  z-index: 1; 
 }
 .header .links:hover ul {
   display: block;
@@ -151,20 +151,20 @@ body {
   background-size: cover;
   height: calc(
     100vh - 64px
-  ); /*bch tkoun image 3l page kemla naqast 64 houwa height mt3 header*/
-  position: relative; /*bech intro text tkoun fel west 3la 7seb landing mch lpage kemla */
+  ); 
+  position: relative; 
 }
 .landing .intro-text {
   position: absolute;
-  left: 50%; /*to center the text*/
-  top: 50%; /*to center the text*/
+  left: 50%; 
+  top: 50%; 
   text-align: center;
-  width: 320px; /*bch text yq3d t7t title w mayetmadedch*/
-  max-width: 100%; /*bch text may5rejch 3l container mte3o jomla*/
-  transform: translate(-50%, -50%); /*to center the text*/
+  width: 320px; 
+  max-width: 100%; 
+  transform: translate(-50%, -50%); 
 }
 .landing .intro-text h1 {
-  margin: 0; /*bch wqt teswira 3la page kemla mysirech scroll */
+  margin: 0; 
   font-weight: bold;
   font-size: 50px;
   color: var(--main-color);
@@ -226,7 +226,7 @@ body {
 }
 .services .services-content .srv i {
   color: var(--main-color);
-  flex-basis: 60px; /* qad toul qad 3or4*/
+  flex-basis: 60px; 
   font-size: 4ex;
 }
 .services .services-content .srv .text {
@@ -296,7 +296,7 @@ body {
   }
 }
 .portfolio .card .info h3 {
-  margin: 0; /*net7km fl h3 bel padding khw */
+  margin: 0; 
 }
 .portfolio .card .info p {
   color: #777;
@@ -312,7 +312,7 @@ body {
 .about .about-content {
   margin-top: 100px;
   display: flex;
-  flex-wrap: wrap; /*bech ken content kebret temchi louta*/
+  flex-wrap: wrap; 
   justify-content: space-between;
 }
 @media (max-width: 991px) {
@@ -342,7 +342,7 @@ body {
   position: absolute;
   background-color: #ebeced;
   width: 80px;
-  height: calc(93.5% + 80px); /*teswirty fiha chwya abya4 mel louta*/
+  height: calc(93.5% + 80px); 
   top: -40px;
   left: -20px;
   z-index: -1;
